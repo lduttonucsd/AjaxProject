@@ -40,6 +40,7 @@ btnMaker();
 
 
 $(document).on("click", ".showBtn", function (event) {
+    event.preventDefault();
     // console.log("clicked");
     
     $("gifArea").empty();
